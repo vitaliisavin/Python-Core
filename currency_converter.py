@@ -28,6 +28,3 @@ while True:
         currency_rates[desired_currency] = dict_r[desired_currency]['rate']
         result = round(available_sum * currency_rates[desired_currency], 2)
         print(f'You received {result} {str.upper(desired_currency)}.')
-
-
-
